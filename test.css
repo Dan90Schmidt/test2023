@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1{
+	font-family:"Open Sans";
+	font-style: italic;
+	font-size: 65px;
+	text-align:center;
+	text-decoration: underline black 3px;
+}
+
+img{
+	float: right;
+	
+}
+body{
+	background: lightblue;
+	border: 10px yellow;
+}							
+
