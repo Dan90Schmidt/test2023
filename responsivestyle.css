@@ -50,7 +50,7 @@ li {
 
 .icon, .icon::before, .icon::after {
 	display: block;
-	background: white;
+	background: black;
 	position: absolute;
 	height: 4px;
 	width: 30px;
@@ -80,7 +80,7 @@ li {
 }
 
 #activate:checked + .menu-box .icon{
-	background: rgba(188,90,91,1.0)
+	background: rgba(188,90,91,0)
 }
 
 #activate {
@@ -108,14 +108,15 @@ li {
 		align-items: center;
 		
 	}
-	#activate – .menu li {
+	#activate ~ .menu li {
 		height: 0;
 		margin: 0;
 		padding: 0;
 		border: 0;
 		transition: height 400ms;
-
-	.menu li {
+	}
+	
+	#activate ~ .menu li {
 		border: 1px solid white;
 		height: 40px;
 		padding: 5px;
@@ -132,7 +133,6 @@ li {
 			
 	}
 }
-
 
 
 
